@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "JorisRos\\NameLibrary": "src/"
+            "JorisRos\\NameLibrary\\": "src/"
         }
     },
     "require": {},
     "scripts": {
-        "cs": "vendor/bin/phpcs",
-        "test": "vendor/bin/phpunit"
+        "cs": "bash vendor/bin/phpcs --standard=PSR12 src",
+        "test": "bash vendor/bin/phpunit  --bootstrap tests/bootstrap.php tests"
     }
 }
