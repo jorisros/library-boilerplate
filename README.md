@@ -23,7 +23,7 @@ You can run the tests with ease by following command:
 You can call the code sniffer command with ease by following command:
 ``composer cs``
 
-## Run phan
+### Run phan
 You can run phan by the following command:
 ``composer phan``
 
