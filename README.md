@@ -23,9 +23,13 @@ You can run the tests with ease by following command:
 You can call the code sniffer command with ease by following command:
 ``composer cs``
 
+## Run phan
+You can run phan by the following command:
+``composer phan``
+
 ## TODO
 - [x] Add project to packagist
 - [ ] Integrate setup for running tests on travis
 - [ ] Integrate setup for running tests on bitbucket pipeline
 - [ ] Integrate setup for running tests on Github actions
-- [ ] Add phan to the project
+- [x] Add phan to the project
