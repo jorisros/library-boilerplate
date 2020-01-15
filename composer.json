@@ -18,9 +18,13 @@
             "JorisRos\\NameLibrary\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "phan/phan": "^2.4"
+    },
     "scripts": {
+        "all": "composer cs && composer phan && composer test",
         "cs": "bash vendor/bin/phpcs --standard=PSR12 src",
+        "phan": "bash vendor/bin/phan --allow-polyfill-parser",
         "test": "bash vendor/bin/phpunit  --bootstrap tests/bootstrap.php tests"
     }
 }
