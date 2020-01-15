@@ -12,7 +12,7 @@ class Simple
      * @param float $a Give a float value
      * @param float $b Give a float value
      *
-     * @return float;
+     * @return float
      */
     public function sum(float $a, float $b)
     {
