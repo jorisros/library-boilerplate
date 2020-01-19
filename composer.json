@@ -23,8 +23,8 @@
     },
     "scripts": {
         "all": "composer cs && composer phan && composer test",
-        "cs": "bash vendor/bin/phpcs --standard=PSR12 src",
-        "phan": "bash vendor/bin/phan --allow-polyfill-parser",
-        "test": "bash vendor/bin/phpunit  --bootstrap tests/bootstrap.php tests"
+        "cs": "php vendor/bin/phpcs --standard=PSR12 src",
+        "phan": "php vendor/bin/phan --allow-polyfill-parser",
+        "test": "php vendor/bin/phpunit  --bootstrap tests/bootstrap.php tests"
     }
 }
