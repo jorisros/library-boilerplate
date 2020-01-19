@@ -27,6 +27,11 @@ You can call the code sniffer command with ease by following command:
 You can run phan by the following command:
 ``composer phan``
 
+## Docker
+### Run the phpunit test inside docker container
+```
+docker-compose exec php composer test
+```
 ## TODO
 - [x] Add project to packagist
 - [ ] Integrate setup for running tests on travis
